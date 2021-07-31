@@ -14,3 +14,6 @@
 # Ignore translated playstore description 
 /main/project/playstore/description/translated/* merge=ours
 /cgeo-contacts/project/playstore/description/translated/* merge=ours
+
+# Ignore branch detection file
+/main/src/cgeo/geocaching/utils/BranchDetectionHelper.java merge=ours

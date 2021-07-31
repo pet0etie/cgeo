@@ -24,6 +24,7 @@ import cgeo.geocaching.storage.LocalStorage;
 import cgeo.geocaching.storage.PersistableFolder;
 import cgeo.geocaching.storage.PersistableUri;
 import static cgeo.geocaching.filters.core.GeocacheFilterContext.FilterType.TRANSIENT;
+import static cgeo.geocaching.utils.BranchDetectionHelper.FROM_BRANCH_RELEASE;
 
 import android.Manifest;
 import android.content.Context;
@@ -68,6 +69,7 @@ public final class SystemInformation {
         final String hideWaypoints = (Settings.isExcludeWpOriginal() ? "original " : "") + (Settings.isExcludeWpParking() ? "parking " : "") + (Settings.isExcludeWpVisited() ? "visited" : "");
         final StringBuilder body = new StringBuilder("## System information").append("\n")
             .append("\nc:geo version: ").append(Version.getVersionName(context)).append("\n")
+            .append("(from branch release: ").append(FROM_BRANCH_RELEASE == 1 ? "yes" : "no").append(")\n")
 
             .append("\nDevice:")
             .append("\n-------")
