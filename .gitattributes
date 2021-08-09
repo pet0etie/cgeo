@@ -7,6 +7,9 @@
 /main/res/values-*/strings.xml merge=ours
 /cgeo-contacts/res/values-*/strings.xml merge=ours
 
+# Do not merge main changelog from release to master
+/main/res/raw/changelog_master.md merge=ours
+
 # Ignore translated changelogs
 /main/res/raw-*/changelog_master.md merge=ours
 /main/res/raw-*/changelog_release.md merge=ours
