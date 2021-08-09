@@ -1,15 +1,15 @@
 DO NOT TRANSLATE THIS FILE. FOR TESTING ONLY!
 THIS IS THE MASTER CHANGELOG
 
-## cache details
+### cache details
 - change 1
 - change 2
 - change 3
 
-## connector
+### connector
 - change 4
 - change 5
 
-## other
+### other
 - change 6
 - change 7
