@@ -17,10 +17,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true">
 
+        <!--
         <Button
             android:id="@+id/download"
             style="@style/button_icon"
             app:icon="@drawable/ic_menu_save"
+            android:text="@null"
+            tools:ignore="ButtonStyle" />
+        -->
+        <Button
+            android:id="@+id/download"
+            style="@style/button_icon"
             android:text="@null"
             tools:ignore="ButtonStyle" />
 
