@@ -123,18 +123,6 @@ class AbstractListAdapter extends RecyclerView.Adapter<AbstractListAdapter.ViewH
                 }
                 return true;
             }
-            /*
-            final GCList pocketQuery = activity.getQueries().get(viewHolder.getAdapterPosition());
-            if (pocketQueryArrayList.contains(pocketQuery)) {
-                pocketQueryArrayList.remove(pocketQuery);
-                v.setBackgroundResource(R.drawable.ic_menu_save);
-            } else {
-                pocketQueryArrayList.add(pocketQuery);
-                v.setBackgroundResource(R.drawable.ic_menu_save_selected);
-            }*/
-            //activity.findViewById(R.id.download).setBackgroundResource(R.drawable.ic_menu_save_selected);
-            //v.setBackgroundResource(R.drawable.ic_menu_save_selected);
-            //return true;
         });
 
         return viewHolder;
